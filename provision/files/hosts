@@ -1,4 +1,5 @@
 # Additional /etc/hosts entries
+## KEEPME
 10.10.10.220 puppetmaster.prolateral.test puppetmaster
 10.10.10.201 puppet1.prolateral.test puppet1
 10.10.10.205 puppet2.prolateral.test puppet2

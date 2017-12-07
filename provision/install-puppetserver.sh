@@ -24,8 +24,10 @@ sudo sed -i.bak '/JAVA_ARGS/s/2g/512m/g' /etc/default/puppetserver
 echo "(removing deprecated option)"
 sudo sed -i.bak '/JAVA_ARGS/s/ -XX:MaxPermSize=256m//' /etc/default/puppetserver
 
-echo "Update the /etc/hosts manually CHECK THIS!!!!"
-sudo cat /vagrant/provision/files/hosts | sudo tee --append /etc/hosts > /dev/null
+echo "Update the /etc/hosts manually..."
+if ! grep -q KEEPME /etc/hosts; then
+    sudo cat /vagrant/provision/files/hosts | sudo tee --append /etc/hosts > /dev/null
+fi
 
 echo "Then start the puppetserver using:"
 echo "    sudo systemctl start puppetserver"
