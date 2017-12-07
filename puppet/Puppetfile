@@ -1,0 +1,4 @@
+
+# Later versions require puppet > 4.0
+# https://forge.puppet.com/puppetlabs/mysql/3.11.0/compatibility
+mod 'puppetlabs-mysql', '3.11.0'
