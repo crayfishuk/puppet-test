@@ -1,0 +1,4 @@
+0x0001 2017-12-06T16:16:33UTC 2022-12-06T16:16:33UTC /CN=Puppet CA: puppetmaster.prolateral.test
+0x0002 2017-12-06T16:20:31UTC 2022-12-06T16:20:31UTC /CN=puppetmaster.prolateral.test
+0x0003 2017-12-06T16:51:29UTC 2022-12-06T16:51:29UTC /CN=puppet1.prolateral.test
+0x0004 2017-12-06T16:51:35UTC 2022-12-06T16:51:35UTC /CN=puppet2.prolateral.test
