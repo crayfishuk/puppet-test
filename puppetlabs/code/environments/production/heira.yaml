@@ -1,0 +1,10 @@
+---
+:backends: yaml
+:hierarchy:
+  - "nodes/%{facts.networking.hostname}"
+  - common
+
+:yaml:
+  :datadir: /var/lib/hiera
+
+:logger: console

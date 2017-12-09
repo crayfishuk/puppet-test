@@ -1,0 +1,6 @@
+# Specify a new location for modules loaded here
+
+moduledir 'thirdparty'
+
+# See https://forge.puppet.com/puppetlabs/accounts#usage
+mod 'puppetlabs-accounts', '1.2.1'

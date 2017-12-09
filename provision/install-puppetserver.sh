@@ -9,6 +9,8 @@ sudo dpkg -i puppetlabs-release-pc1-xenial.deb
 echo "Updating Packages..."
 sudo apt-get -q update
 
+sudo ln -s /vagrant/puppetlabs /etc/puppetlabs
+
 echo "Installing puppetserver..."
 sudo apt-get -q -y install puppetserver
 echo "PATH=/opt/puppetlabs/bin:$PATH" >> /etc/bash.bashrc
